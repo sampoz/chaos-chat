@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "ramda": "file:./src/ramda.d.ts"
+  }
+}
