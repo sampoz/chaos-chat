@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "outDir": "build/dist",
+    "module": "commonjs",
+    "target": "es3",
+    "lib": ["es6", "dom"],
+    "sourceMap": false,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "removeComments": false,
+    "traceResolution": true
+  },
+  "exclude": [
+    ".sign",
+    "bin",
+    "build",
+    "config",
+    "deployment",
+    "docs",
+    "jenkins",
+    "docs",
+    "keys",
+    "node_modules",
+    "public",
+    "scripts",
+    "tizen-sdk",
+    "tizen-sdk-data",
+    "tizen_partner_cert",
+    "webpack"
+  ],
+  "types": [
+    "typePatches"
+  ]
+}

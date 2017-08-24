@@ -1,0 +1,22 @@
+node_modules/
+bin/
+build/
+.settings/
+.sdk_delta.info
+.sign/
+.tproject
+.tscache/
+npm-debug.log
+.DS_Store
+
+# JS
+src/**/*.js
+
+# Terraform
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+#Vi swap files
+*.swp
+
